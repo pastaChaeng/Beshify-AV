@@ -1,12 +1,12 @@
 {
-  "homepage": "https://pastaChaeng.github.io/beshyfy-rver",
+  "homepage": "https://pastaChaeng.github.io/Beshify-AV",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -29,5 +29,4 @@
     "gh-pages": "^5.0.0",
     "vite": "^4.3.9"
   }
-  
 }
